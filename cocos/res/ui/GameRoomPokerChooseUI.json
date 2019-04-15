@@ -1,0 +1,1667 @@
+{
+  "ID": "6a67ee4b-48db-4435-9876-0531bb89d2f5",
+  "Version": "3.10.0.0",
+  "Name": "GameRoomPokerChooseUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 61,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 204,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -1.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": -0.0008,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": -1.0,
+            "RightMargin": 1.0,
+            "Tag": 109,
+            "ActionTag": 1237598572,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "bg_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.0972
+            },
+            "TopMargin": 650.0,
+            "Tag": 62,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/duizi_02.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/duizi_02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/duizi_01.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 184,
+                "Scale9Height": 86,
+                "DisplayState": false,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -13.6362,
+                  "Y": -8.2061
+                },
+                "Scale": {
+                  "ScaleX": 0.9974,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0107,
+                  "Y": -0.1172
+                },
+                "PreSize": {
+                  "X": 0.1672,
+                  "Y": 1.5429
+                },
+                "LeftMargin": -13.6362,
+                "RightMargin": 1079.6362,
+                "TopMargin": -29.7939,
+                "BottomMargin": -8.2061,
+                "Tag": 63,
+                "ActionTag": 287618745,
+                "Size": {
+                  "X": 214.0,
+                  "Y": 108.0
+                },
+                "Name": "duizi_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/liangdui_02.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/liangdui_02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/liangdui_01.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 184,
+                "Scale9Height": 86,
+                "DisplayState": false,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 143.9383,
+                  "Y": -11.0001
+                },
+                "Scale": {
+                  "ScaleX": 0.9974,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1125,
+                  "Y": -0.1571
+                },
+                "PreSize": {
+                  "X": 0.1672,
+                  "Y": 1.5429
+                },
+                "LeftMargin": 143.9383,
+                "RightMargin": 922.0617,
+                "TopMargin": -26.9999,
+                "BottomMargin": -11.0001,
+                "Tag": 64,
+                "ActionTag": -694310022,
+                "Size": {
+                  "X": 214.0,
+                  "Y": 108.0
+                },
+                "Name": "liangdui_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/santiao_02.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/santiao_02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/santiao_01.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 184,
+                "Scale9Height": 86,
+                "DisplayState": false,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 296.6829,
+                  "Y": -8.0002
+                },
+                "Scale": {
+                  "ScaleX": 0.9974,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2318,
+                  "Y": -0.1143
+                },
+                "PreSize": {
+                  "X": 0.1672,
+                  "Y": 1.5429
+                },
+                "LeftMargin": 296.6829,
+                "RightMargin": 769.3171,
+                "TopMargin": -29.9998,
+                "BottomMargin": -8.0002,
+                "Tag": 65,
+                "ActionTag": -2138971733,
+                "Size": {
+                  "X": 214.0,
+                  "Y": 108.0
+                },
+                "Name": "santiao_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/shunzi_02.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/shunzi_02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/shunzi_01.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 184,
+                "Scale9Height": 86,
+                "DisplayState": false,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 449.8704,
+                  "Y": -10.0002
+                },
+                "Scale": {
+                  "ScaleX": 0.9974,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3515,
+                  "Y": -0.1429
+                },
+                "PreSize": {
+                  "X": 0.1672,
+                  "Y": 1.5429
+                },
+                "LeftMargin": 449.8704,
+                "RightMargin": 616.1296,
+                "TopMargin": -27.9998,
+                "BottomMargin": -10.0002,
+                "Tag": 66,
+                "ActionTag": 793883097,
+                "Size": {
+                  "X": 214.0,
+                  "Y": 108.0
+                },
+                "Name": "shunzi_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/tonghua_02.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/tonghua_02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/tonghua_01.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 184,
+                "Scale9Height": 86,
+                "DisplayState": false,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 604.471,
+                  "Y": -11.0002
+                },
+                "Scale": {
+                  "ScaleX": 0.9974,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4722,
+                  "Y": -0.1571
+                },
+                "PreSize": {
+                  "X": 0.1672,
+                  "Y": 1.5429
+                },
+                "LeftMargin": 604.471,
+                "RightMargin": 461.529,
+                "TopMargin": -26.9998,
+                "BottomMargin": -11.0002,
+                "Tag": 67,
+                "ActionTag": 1060096172,
+                "Size": {
+                  "X": 214.0,
+                  "Y": 108.0
+                },
+                "Name": "tonghua_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/hulu_02.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/hulu_02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/hulu_01.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 184,
+                "Scale9Height": 86,
+                "DisplayState": false,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 757.0001,
+                  "Y": -7.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5914,
+                  "Y": -0.1
+                },
+                "PreSize": {
+                  "X": 0.1672,
+                  "Y": 1.5429
+                },
+                "LeftMargin": 757.0001,
+                "RightMargin": 308.9999,
+                "TopMargin": -31.0,
+                "BottomMargin": -7.0,
+                "Tag": 68,
+                "ActionTag": 564845909,
+                "Size": {
+                  "X": 214.0,
+                  "Y": 108.0
+                },
+                "Name": "hulu_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/zhadan_02.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/zhadan_02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/zhadan_01.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 184,
+                "Scale9Height": 86,
+                "DisplayState": false,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 911.0002,
+                  "Y": -11.0002
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7117,
+                  "Y": -0.1571
+                },
+                "PreSize": {
+                  "X": 0.1672,
+                  "Y": 1.5429
+                },
+                "LeftMargin": 911.0002,
+                "RightMargin": 154.9998,
+                "TopMargin": -26.9998,
+                "BottomMargin": -11.0002,
+                "Tag": 69,
+                "ActionTag": 1425228092,
+                "Size": {
+                  "X": 214.0,
+                  "Y": 108.0
+                },
+                "Name": "zhadan_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/tonghuashun_02.png",
+                  "Plist": ""
+                },
+                "PressedFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/tonghuashun_02.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/tonghuashun_01.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 184,
+                "Scale9Height": 86,
+                "DisplayState": false,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 1071.0011,
+                  "Y": -7.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8367,
+                  "Y": -0.1
+                },
+                "PreSize": {
+                  "X": 0.1672,
+                  "Y": 1.5429
+                },
+                "LeftMargin": 1071.0011,
+                "RightMargin": -5.0011,
+                "TopMargin": -30.9999,
+                "BottomMargin": -7.0001,
+                "Tag": 70,
+                "ActionTag": -861417243,
+                "Size": {
+                  "X": 214.0,
+                  "Y": 108.0
+                },
+                "Name": "tonghuashun_btn",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1556696823,
+            "Size": {
+              "X": 1280.0,
+              "Y": 70.0
+            },
+            "Name": "bottom_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 504.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.7
+            },
+            "PreSize": {
+              "X": 0.7203,
+              "Y": 0.575
+            },
+            "LeftMargin": 179.0,
+            "RightMargin": 179.0,
+            "TopMargin": 9.0,
+            "BottomMargin": 297.0,
+            "Tag": 74,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/container_img.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 15,
+                "Scale9Width": 892,
+                "Scale9Height": 384,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 461.0,
+                  "Y": 207.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 76,
+                "ActionTag": 272556995,
+                "Size": {
+                  "X": 922.0,
+                  "Y": 414.0
+                },
+                "Name": "container_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/toudun_img.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 80,
+                "Scale9OriginY": 51,
+                "Scale9Width": 180,
+                "Scale9Height": 22,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 461.9995,
+                  "Y": 333.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5011,
+                  "Y": 0.8043
+                },
+                "PreSize": {
+                  "X": 0.3688,
+                  "Y": 0.2995
+                },
+                "LeftMargin": 291.9995,
+                "RightMargin": 290.0005,
+                "TopMargin": 19.0,
+                "BottomMargin": 271.0,
+                "Tag": 77,
+                "ActionTag": -786062419,
+                "Size": {
+                  "X": 340.0,
+                  "Y": 124.0
+                },
+                "Name": "toudun_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 339.0,
+                  "Y": 293.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3677,
+                  "Y": 0.7077
+                },
+                "PreSize": {
+                  "X": 0.2625,
+                  "Y": 0.1884
+                },
+                "LeftMargin": 339.0,
+                "RightMargin": 341.0,
+                "TopMargin": 43.0,
+                "BottomMargin": 293.0,
+                "Tag": 107,
+                "ActionTag": -796037019,
+                "Size": {
+                  "X": 242.0,
+                  "Y": 78.0
+                },
+                "Name": "toudun_pokers_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/zhongdun_img.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 123,
+                "Scale9OriginY": 51,
+                "Scale9Width": 232,
+                "Scale9Height": 22,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 460.9991,
+                  "Y": 319.9996
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7729
+                },
+                "PreSize": {
+                  "X": 0.5184,
+                  "Y": 0.2995
+                },
+                "LeftMargin": 221.9991,
+                "RightMargin": 222.0009,
+                "TopMargin": 94.0004,
+                "BottomMargin": 195.9996,
+                "Tag": 78,
+                "ActionTag": -1135265637,
+                "Size": {
+                  "X": 478.0,
+                  "Y": 124.0
+                },
+                "Name": "zhongdun_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 276.0,
+                  "Y": 216.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2993,
+                  "Y": 0.5217
+                },
+                "PreSize": {
+                  "X": 0.4013,
+                  "Y": 0.1884
+                },
+                "LeftMargin": 276.0,
+                "RightMargin": 276.0,
+                "TopMargin": 120.0001,
+                "BottomMargin": 216.0,
+                "Tag": 108,
+                "ActionTag": 417652491,
+                "Size": {
+                  "X": 370.0,
+                  "Y": 78.0
+                },
+                "Name": "zhongdun_pokers_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/weidun_img.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 138,
+                "Scale9OriginY": 51,
+                "Scale9Width": 202,
+                "Scale9Height": 100,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 459.9999,
+                  "Y": 231.9996
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4989,
+                  "Y": 0.5604
+                },
+                "PreSize": {
+                  "X": 0.5184,
+                  "Y": 0.4879
+                },
+                "LeftMargin": 220.9999,
+                "RightMargin": 223.0001,
+                "TopMargin": 182.0004,
+                "BottomMargin": 29.9996,
+                "Tag": 79,
+                "ActionTag": -1636230984,
+                "Size": {
+                  "X": 478.0,
+                  "Y": 202.0
+                },
+                "Name": "weidun_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 220.0,
+                  "Y": 44.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2386,
+                  "Y": 0.1063
+                },
+                "PreSize": {
+                  "X": 0.5206,
+                  "Y": 0.4155
+                },
+                "LeftMargin": 220.0,
+                "RightMargin": 222.0,
+                "TopMargin": 198.0,
+                "BottomMargin": 44.0,
+                "Tag": 110,
+                "ActionTag": -1272873977,
+                "Size": {
+                  "X": 480.0,
+                  "Y": 172.0
+                },
+                "Name": "weidun_pokers_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/complete_01.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 125,
+                "Scale9Height": 58,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 711.7914,
+                  "Y": 35.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.772,
+                  "Y": 0.087
+                },
+                "PreSize": {
+                  "X": 0.1866,
+                  "Y": 0.1981
+                },
+                "LeftMargin": 711.7914,
+                "RightMargin": 38.2086,
+                "TopMargin": 296.0001,
+                "BottomMargin": 35.9999,
+                "Tag": 80,
+                "ActionTag": -389927291,
+                "Size": {
+                  "X": 172.0,
+                  "Y": 82.0
+                },
+                "Name": "finish_btn",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_duizi.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 51,
+                "Scale9OriginY": 18,
+                "Scale9Width": 43,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 145.9998,
+                  "Y": 283.9998
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1584,
+                  "Y": 0.686
+                },
+                "PreSize": {
+                  "X": 0.1573,
+                  "Y": 0.1522
+                },
+                "LeftMargin": 73.4998,
+                "RightMargin": 703.5002,
+                "TopMargin": 98.5002,
+                "BottomMargin": 252.4998,
+                "Tag": 84,
+                "ActionTag": -1842347165,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "VisibleForFrame": false,
+                "Name": "toudun_result_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_hulu.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 51,
+                "Scale9OriginY": 18,
+                "Scale9Width": 43,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 142.0,
+                  "Y": 183.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.154,
+                  "Y": 0.442
+                },
+                "PreSize": {
+                  "X": 0.1573,
+                  "Y": 0.1522
+                },
+                "LeftMargin": 69.5,
+                "RightMargin": 707.5,
+                "TopMargin": 199.5,
+                "BottomMargin": 151.5,
+                "Tag": 85,
+                "ActionTag": -2135294712,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "VisibleForFrame": false,
+                "Name": "zhongdun_result_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_tonghuashun.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 51,
+                "Scale9OriginY": 18,
+                "Scale9Width": 43,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 140.0,
+                  "Y": 79.9999
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1518,
+                  "Y": 0.1932
+                },
+                "PreSize": {
+                  "X": 0.1573,
+                  "Y": 0.1522
+                },
+                "LeftMargin": 67.5,
+                "RightMargin": 709.5,
+                "TopMargin": 302.5001,
+                "BottomMargin": 48.4999,
+                "Tag": 86,
+                "ActionTag": 257621890,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "VisibleForFrame": false,
+                "Name": "weidun_result_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_tonghuashun.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 51,
+                "Scale9OriginY": 18,
+                "Scale9Width": 43,
+                "Scale9Height": 27,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 461.0,
+                  "Y": 207.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "RotationSkewX": -30.0,
+                "RotationSkewY": -30.0,
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1573,
+                  "Y": 0.1522
+                },
+                "LeftMargin": 388.5,
+                "RightMargin": 388.5,
+                "TopMargin": 175.5,
+                "BottomMargin": 175.5,
+                "Tag": 87,
+                "ActionTag": 543067516,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "VisibleForFrame": false,
+                "Name": "special_result_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/choose_confirm.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 13,
+                "Scale9Width": 30,
+                "Scale9Height": 22,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 782.0009,
+                  "Y": 353.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8482,
+                  "Y": 0.8527
+                },
+                "PreSize": {
+                  "X": 0.0738,
+                  "Y": 0.1159
+                },
+                "LeftMargin": 748.0009,
+                "RightMargin": 105.9991,
+                "TopMargin": 37.0,
+                "BottomMargin": 329.0,
+                "Tag": 112,
+                "ActionTag": 1919578273,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 48.0
+                },
+                "Name": "toudun_submit_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/choose_confirm.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 13,
+                "Scale9Width": 30,
+                "Scale9Height": 22,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 782.0009,
+                  "Y": 261.0001
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8482,
+                  "Y": 0.6304
+                },
+                "PreSize": {
+                  "X": 0.0738,
+                  "Y": 0.1159
+                },
+                "LeftMargin": 748.0009,
+                "RightMargin": 105.9991,
+                "TopMargin": 128.9999,
+                "BottomMargin": 237.0001,
+                "Tag": 113,
+                "ActionTag": -819509321,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 48.0
+                },
+                "Name": "zhongdun_submit_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/choose_confirm.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 19,
+                "Scale9OriginY": 13,
+                "Scale9Width": 30,
+                "Scale9Height": 22,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 782.0,
+                  "Y": 171.0004
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8482,
+                  "Y": 0.413
+                },
+                "PreSize": {
+                  "X": 0.0738,
+                  "Y": 0.1159
+                },
+                "LeftMargin": 748.0,
+                "RightMargin": 106.0,
+                "TopMargin": 218.9996,
+                "BottomMargin": 147.0004,
+                "Tag": 114,
+                "ActionTag": -242475780,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 48.0
+                },
+                "Name": "weidun_submit_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomPokerChooseUI/alert_bg.png",
+                  "Plist": ""
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 13,
+                "Scale9OriginY": 13,
+                "Scale9Width": 16,
+                "Scale9Height": 16,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 461.0,
+                  "Y": 207.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.4555,
+                  "Y": 0.1014
+                },
+                "LeftMargin": 251.0,
+                "RightMargin": 251.0,
+                "TopMargin": 186.0,
+                "BottomMargin": 186.0,
+                "Tag": 194,
+                "ActionTag": 2079007078,
+                "Size": {
+                  "X": 420.0,
+                  "Y": 42.0
+                },
+                "Alpha": 0,
+                "Name": "alert_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "必须满足头道>中道>尾道",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 461.0,
+                  "Y": 207.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.2863,
+                  "Y": 0.058
+                },
+                "LeftMargin": 329.0,
+                "RightMargin": 329.0,
+                "TopMargin": 195.0,
+                "BottomMargin": 195.0,
+                "Tag": 115,
+                "ActionTag": 1890868805,
+                "Size": {
+                  "X": 264.0,
+                  "Y": 24.0
+                },
+                "Alpha": 0,
+                "Name": "alert_label",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 2056364684,
+            "Size": {
+              "X": 922.0,
+              "Y": 414.0
+            },
+            "Name": "top_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 204,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.45
+            },
+            "TopMargin": 396.0,
+            "Tag": 41,
+            "ActionTag": 1524205620,
+            "Size": {
+              "X": 1280.0,
+              "Y": 324.0
+            },
+            "Name": "front_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "GameRoomPokerChooseUI/alert_bg.png",
+        "GameRoomPokerChooseUI/choose_confirm.png",
+        "GameRoomPokerChooseUI/complete_01.png",
+        "GameRoomPokerChooseUI/container_img.png",
+        "GameRoomPokerChooseUI/duizi_01.png",
+        "GameRoomPokerChooseUI/duizi_02.png",
+        "GameRoomPokerChooseUI/hulu_01.png",
+        "GameRoomPokerChooseUI/hulu_02.png",
+        "GameRoomPokerChooseUI/liangdui_01.png",
+        "GameRoomPokerChooseUI/liangdui_02.png",
+        "GameRoomPokerChooseUI/santiao_01.png",
+        "GameRoomPokerChooseUI/santiao_02.png",
+        "GameRoomPokerChooseUI/shunzi_01.png",
+        "GameRoomPokerChooseUI/shunzi_02.png",
+        "GameRoomPokerChooseUI/tonghua_01.png",
+        "GameRoomPokerChooseUI/tonghua_02.png",
+        "GameRoomPokerChooseUI/tonghuashun_01.png",
+        "GameRoomPokerChooseUI/tonghuashun_02.png",
+        "GameRoomPokerChooseUI/toudun_img.png",
+        "GameRoomPokerChooseUI/weidun_img.png",
+        "GameRoomPokerChooseUI/zhadan_01.png",
+        "GameRoomPokerChooseUI/zhadan_02.png",
+        "GameRoomPokerChooseUI/zhongdun_img.png",
+        "Poker/paixing_duizi.png",
+        "Poker/paixing_hulu.png",
+        "Poker/paixing_tonghuashun.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

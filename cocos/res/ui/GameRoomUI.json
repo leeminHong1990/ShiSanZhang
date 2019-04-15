@@ -1,0 +1,5378 @@
+{
+  "ID": "95260d40-ca5b-4767-a0a5-8aa1b8853b0e",
+  "Version": "3.10.0.0",
+  "Name": "GameRoomUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 22,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "BackGround/GameRoomBG.png",
+              "Plist": ""
+            },
+            "Scale9OriginX": 422,
+            "Scale9OriginY": 237,
+            "Scale9Width": 436,
+            "Scale9Height": 246,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 300,
+            "ActionTag": -2090280328,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "game_room_bg",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 127,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 448.0,
+              "Y": 129.6
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.35,
+              "Y": 0.18
+            },
+            "PreSize": {
+              "X": 0.1016,
+              "Y": 0.25
+            },
+            "LeftMargin": 383.0,
+            "RightMargin": 767.0,
+            "TopMargin": 500.4,
+            "BottomMargin": 39.6,
+            "Tag": 1051,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/name_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 34,
+                "Scale9OriginY": 9,
+                "Scale9Width": 22,
+                "Scale9Height": 10,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 64.662,
+                  "Y": 60.714
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4974,
+                  "Y": 0.3373
+                },
+                "PreSize": {
+                  "X": 0.6923,
+                  "Y": 0.1556
+                },
+                "LeftMargin": 19.662,
+                "RightMargin": 20.338,
+                "TopMargin": 105.286,
+                "BottomMargin": 46.714,
+                "Tag": 1052,
+                "ActionTag": 780655288,
+                "Size": {
+                  "X": 90.0,
+                  "Y": 28.0
+                },
+                "Name": "name_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/common_portrait_mask.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 90.0
+                },
+                "Scale": {
+                  "ScaleX": 1.45,
+                  "ScaleY": 1.45
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.3846,
+                  "Y": 0.2778
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 40.0,
+                "TopMargin": 65.0,
+                "BottomMargin": 65.0,
+                "Tag": 1053,
+                "ActionTag": -1916630423,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 50.0
+                },
+                "VisibleForFrame": false,
+                "Name": "portrait_sprite",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/common_portrait_frame3.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 24,
+                "Scale9OriginY": 24,
+                "Scale9Width": 44,
+                "Scale9Height": 46,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 90.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.7077,
+                  "Y": 0.5222
+                },
+                "LeftMargin": 19.0,
+                "RightMargin": 19.0,
+                "TopMargin": 43.0,
+                "BottomMargin": 43.0,
+                "Tag": 1054,
+                "ActionTag": 17103589,
+                "Size": {
+                  "X": 92.0,
+                  "Y": 94.0
+                },
+                "Name": "frame_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 16,
+                "LabelText": "我我我我我我我",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 57.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 190,
+                  "G": 232
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.32
+                },
+                "PreSize": {
+                  "X": 1.0769,
+                  "Y": 0.1111
+                },
+                "LeftMargin": -5.0,
+                "RightMargin": -5.0,
+                "TopMargin": 112.4,
+                "BottomMargin": 47.6,
+                "Tag": 1055,
+                "ActionTag": -2120137953,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 20.0
+                },
+                "Name": "name_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/score_bg2.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 45,
+                "Scale9OriginY": 13,
+                "Scale9Width": 2,
+                "Scale9Height": 5,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 67.002,
+                  "Y": 26.604
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5154,
+                  "Y": 0.1478
+                },
+                "PreSize": {
+                  "X": 0.7077,
+                  "Y": 0.1722
+                },
+                "LeftMargin": 21.002,
+                "RightMargin": 16.998,
+                "TopMargin": 137.896,
+                "BottomMargin": 11.104,
+                "Tag": 1056,
+                "ActionTag": -210236496,
+                "Size": {
+                  "X": 92.0,
+                  "Y": 31.0
+                },
+                "Name": "score_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "0\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 67.6,
+                  "Y": 28.098
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 199,
+                  "G": 165,
+                  "B": 66
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.52,
+                  "Y": 0.1561
+                },
+                "PreSize": {
+                  "X": 0.9231,
+                  "Y": 0.1111
+                },
+                "LeftMargin": 7.6,
+                "RightMargin": 2.4,
+                "TopMargin": 141.902,
+                "BottomMargin": 18.098,
+                "Tag": 1057,
+                "ActionTag": -1758389947,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 20.0
+                },
+                "Name": "score_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomUI/state_wancheng.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 10,
+                "Scale9Width": 72,
+                "Scale9Height": 19,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 90.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.7846,
+                  "Y": 0.2167
+                },
+                "LeftMargin": 14.0,
+                "RightMargin": 14.0,
+                "TopMargin": 70.5,
+                "BottomMargin": 70.5,
+                "Tag": 57,
+                "ActionTag": -1447500339,
+                "Size": {
+                  "X": 102.0,
+                  "Y": 39.0
+                },
+                "VisibleForFrame": false,
+                "Name": "game_state_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/common_roomowner_img.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 5,
+                "Scale9OriginY": 8,
+                "Scale9Width": 16,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 93.6,
+                  "Y": 113.4
+                },
+                "Scale": {
+                  "ScaleX": 1.1,
+                  "ScaleY": 1.1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.72,
+                  "Y": 0.63
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.2333
+                },
+                "LeftMargin": 80.6,
+                "RightMargin": 23.4,
+                "TopMargin": 45.6,
+                "BottomMargin": 92.4,
+                "Tag": 1059,
+                "ActionTag": 1084924712,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 42.0
+                },
+                "Name": "owner_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomUI/state_online.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 8,
+                "Scale9OriginY": 11,
+                "Scale9Width": 10,
+                "Scale9Height": 4,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 32.5,
+                  "Y": 126.0
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.25,
+                  "Y": 0.7
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.1444
+                },
+                "LeftMargin": 19.5,
+                "RightMargin": 84.5,
+                "TopMargin": 41.0,
+                "BottomMargin": 113.0,
+                "Tag": 1060,
+                "ActionTag": -1470910396,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 26.0
+                },
+                "VisibleForFrame": false,
+                "Name": "state_img",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 202090533,
+            "Size": {
+              "X": 130.0,
+              "Y": 180.0
+            },
+            "VisibleForFrame": false,
+            "Name": "player_info_panel0",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 21.6
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.03
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.3333
+            },
+            "LeftMargin": 520.0,
+            "RightMargin": 520.0,
+            "TopMargin": 458.4,
+            "BottomMargin": 21.6,
+            "Tag": 55,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/10.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3333,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 117.0,
+                "TopMargin": -8.0,
+                "BottomMargin": 128.0,
+                "Tag": 56,
+                "ActionTag": 1823197557,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker11_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/11.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 77.0,
+                "RightMargin": 77.0,
+                "TopMargin": -8.0,
+                "BottomMargin": 128.0,
+                "Tag": 57,
+                "ActionTag": 1687331435,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker12_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/12.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 117.0,
+                "RightMargin": 37.0,
+                "TopMargin": -8.0,
+                "BottomMargin": 128.0,
+                "Tag": 58,
+                "ActionTag": -1777169257,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker13_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/13.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 40.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1667,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": -3.0,
+                "RightMargin": 157.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 59,
+                "ActionTag": 1594428332,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker21_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/14.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3333,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 117.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 60,
+                "ActionTag": 1034173362,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker22_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/20.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 77.0,
+                "RightMargin": 77.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 61,
+                "ActionTag": 484316284,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker23_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/23.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 117.0,
+                "RightMargin": 37.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 62,
+                "ActionTag": -2108793863,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker24_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/26.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8333,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 157.0,
+                "RightMargin": -3.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 63,
+                "ActionTag": -561998604,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker25_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/29.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 40.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1667,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": -3.0,
+                "RightMargin": 157.0,
+                "TopMargin": 120.0,
+                "Tag": 64,
+                "ActionTag": -1402177092,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker31_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/34.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3333,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 117.0,
+                "TopMargin": 120.0,
+                "Tag": 65,
+                "ActionTag": 477828233,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker32_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/37.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 77.0,
+                "RightMargin": 77.0,
+                "TopMargin": 120.0,
+                "Tag": 66,
+                "ActionTag": -1055544882,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker33_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/42.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 117.0,
+                "RightMargin": 37.0,
+                "TopMargin": 120.0,
+                "Tag": 67,
+                "ActionTag": 964434317,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker34_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/44.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8333,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 157.0,
+                "RightMargin": -3.0,
+                "TopMargin": 120.0,
+                "Tag": 68,
+                "ActionTag": -1514022228,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker35_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_duizi.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 20,
+                "Scale9Width": 51,
+                "Scale9Height": 23,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 240.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.6042,
+                  "Y": 0.2625
+                },
+                "LeftMargin": 240.0,
+                "RightMargin": -145.0,
+                "TopMargin": -11.0,
+                "BottomMargin": 188.0,
+                "Tag": 70,
+                "ActionTag": 1248014354,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "Name": "toudun_result_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_liangdui.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 20,
+                "Scale9Width": 51,
+                "Scale9Height": 23,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 240.0,
+                  "Y": 118.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0,
+                  "Y": 0.4917
+                },
+                "PreSize": {
+                  "X": 0.6042,
+                  "Y": 0.2625
+                },
+                "LeftMargin": 240.0,
+                "RightMargin": -145.0,
+                "TopMargin": 59.0,
+                "BottomMargin": 118.0,
+                "Tag": 71,
+                "ActionTag": 1936928430,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "Name": "zhongdun_result_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_shunzi.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 20,
+                "Scale9Width": 89,
+                "Scale9Height": 23,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 240.0,
+                  "Y": 48.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0,
+                  "Y": 0.2
+                },
+                "PreSize": {
+                  "X": 0.6042,
+                  "Y": 0.2625
+                },
+                "LeftMargin": 240.0,
+                "RightMargin": -145.0,
+                "TopMargin": 129.0,
+                "BottomMargin": 48.0,
+                "Tag": 72,
+                "ActionTag": -1334774170,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "Name": "weidun_result_img",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -14310332,
+            "Size": {
+              "X": 240.0,
+              "Y": 240.0
+            },
+            "VisibleForFrame": false,
+            "Name": "pokers_panel0",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 127,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 832.0,
+              "Y": 583.2
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.65,
+              "Y": 0.81
+            },
+            "PreSize": {
+              "X": 0.1016,
+              "Y": 0.25
+            },
+            "LeftMargin": 767.0,
+            "RightMargin": 383.0,
+            "TopMargin": 46.8,
+            "BottomMargin": 493.2,
+            "Tag": 1081,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/name_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 34,
+                "Scale9OriginY": 9,
+                "Scale9Width": 22,
+                "Scale9Height": 10,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 64.662,
+                  "Y": 60.714
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4974,
+                  "Y": 0.3373
+                },
+                "PreSize": {
+                  "X": 0.6923,
+                  "Y": 0.1556
+                },
+                "LeftMargin": 19.662,
+                "RightMargin": 20.338,
+                "TopMargin": 105.286,
+                "BottomMargin": 46.714,
+                "Tag": 1082,
+                "ActionTag": -471871184,
+                "Size": {
+                  "X": 90.0,
+                  "Y": 28.0
+                },
+                "Name": "name_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/common_portrait_mask.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 90.0
+                },
+                "Scale": {
+                  "ScaleX": 1.45,
+                  "ScaleY": 1.45
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.3846,
+                  "Y": 0.2778
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 40.0,
+                "TopMargin": 65.0,
+                "BottomMargin": 65.0,
+                "Tag": 1083,
+                "ActionTag": -1393032567,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 50.0
+                },
+                "VisibleForFrame": false,
+                "Name": "portrait_sprite",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/common_portrait_frame3.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 24,
+                "Scale9OriginY": 24,
+                "Scale9Width": 44,
+                "Scale9Height": 46,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 90.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.7077,
+                  "Y": 0.5222
+                },
+                "LeftMargin": 19.0,
+                "RightMargin": 19.0,
+                "TopMargin": 43.0,
+                "BottomMargin": 43.0,
+                "Tag": 1084,
+                "ActionTag": -988231597,
+                "Size": {
+                  "X": 92.0,
+                  "Y": 94.0
+                },
+                "Name": "frame_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 16,
+                "LabelText": "我我我我我我我",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 57.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 190,
+                  "G": 232
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.32
+                },
+                "PreSize": {
+                  "X": 1.0769,
+                  "Y": 0.1111
+                },
+                "LeftMargin": -5.0,
+                "RightMargin": -5.0,
+                "TopMargin": 112.4,
+                "BottomMargin": 47.6,
+                "Tag": 1085,
+                "ActionTag": -2021847583,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 20.0
+                },
+                "Name": "name_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/score_bg2.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 45,
+                "Scale9OriginY": 13,
+                "Scale9Width": 2,
+                "Scale9Height": 5,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 67.002,
+                  "Y": 26.604
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5154,
+                  "Y": 0.1478
+                },
+                "PreSize": {
+                  "X": 0.7077,
+                  "Y": 0.1722
+                },
+                "LeftMargin": 21.002,
+                "RightMargin": 16.998,
+                "TopMargin": 137.896,
+                "BottomMargin": 11.104,
+                "Tag": 1086,
+                "ActionTag": 1497511715,
+                "Size": {
+                  "X": 92.0,
+                  "Y": 31.0
+                },
+                "Name": "score_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "0\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 67.6,
+                  "Y": 28.098
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 199,
+                  "G": 165,
+                  "B": 66
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.52,
+                  "Y": 0.1561
+                },
+                "PreSize": {
+                  "X": 0.9231,
+                  "Y": 0.1111
+                },
+                "LeftMargin": 7.6,
+                "RightMargin": 2.4,
+                "TopMargin": 141.902,
+                "BottomMargin": 18.098,
+                "Tag": 1087,
+                "ActionTag": 1956930531,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 20.0
+                },
+                "Name": "score_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomUI/state_wancheng.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 10,
+                "Scale9Width": 72,
+                "Scale9Height": 19,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 90.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.7846,
+                  "Y": 0.2167
+                },
+                "LeftMargin": 14.0,
+                "RightMargin": 14.0,
+                "TopMargin": 70.5,
+                "BottomMargin": 70.5,
+                "Tag": 997,
+                "ActionTag": -212654230,
+                "Size": {
+                  "X": 102.0,
+                  "Y": 39.0
+                },
+                "VisibleForFrame": false,
+                "Name": "game_state_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/common_roomowner_img.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 5,
+                "Scale9OriginY": 8,
+                "Scale9Width": 16,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 93.6,
+                  "Y": 113.4
+                },
+                "Scale": {
+                  "ScaleX": 1.1,
+                  "ScaleY": 1.1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.72,
+                  "Y": 0.63
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.2333
+                },
+                "LeftMargin": 80.6,
+                "RightMargin": 23.4,
+                "TopMargin": 45.6,
+                "BottomMargin": 92.4,
+                "Tag": 1089,
+                "ActionTag": -1298882869,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 42.0
+                },
+                "Name": "owner_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomUI/state_online.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": -7,
+                "Scale9OriginY": 11,
+                "Scale9Width": 40,
+                "Scale9Height": 4,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 32.5,
+                  "Y": 126.0
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.25,
+                  "Y": 0.7
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.1444
+                },
+                "LeftMargin": 19.5,
+                "RightMargin": 84.5,
+                "TopMargin": 41.0,
+                "BottomMargin": 113.0,
+                "Tag": 1090,
+                "ActionTag": -552274710,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 26.0
+                },
+                "VisibleForFrame": false,
+                "Name": "state_img",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 2063589705,
+            "Size": {
+              "X": 130.0,
+              "Y": 180.0
+            },
+            "VisibleForFrame": false,
+            "Name": "player_info_panel1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 619.2
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.86
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.3333
+            },
+            "LeftMargin": 520.0,
+            "RightMargin": 520.0,
+            "TopMargin": 100.8,
+            "BottomMargin": 379.2,
+            "Tag": 70,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/10.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3333,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 117.0,
+                "TopMargin": -8.0,
+                "BottomMargin": 128.0,
+                "Tag": 71,
+                "ActionTag": 778494930,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker11_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/11.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 77.0,
+                "RightMargin": 77.0,
+                "TopMargin": -8.0,
+                "BottomMargin": 128.0,
+                "Tag": 72,
+                "ActionTag": -2050666310,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker12_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/12.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 117.0,
+                "RightMargin": 37.0,
+                "TopMargin": -8.0,
+                "BottomMargin": 128.0,
+                "Tag": 73,
+                "ActionTag": -1128092770,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker13_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/13.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 40.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1667,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": -3.0,
+                "RightMargin": 157.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 74,
+                "ActionTag": -1954881715,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker21_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/14.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3333,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 117.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 75,
+                "ActionTag": -307877567,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker22_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/20.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 77.0,
+                "RightMargin": 77.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 76,
+                "ActionTag": 51066615,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker23_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/23.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 117.0,
+                "RightMargin": 37.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 77,
+                "ActionTag": 2109439160,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker24_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/26.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8333,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 157.0,
+                "RightMargin": -3.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 78,
+                "ActionTag": 1949608236,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker25_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/29.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 40.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1667,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": -3.0,
+                "RightMargin": 157.0,
+                "TopMargin": 120.0,
+                "Tag": 79,
+                "ActionTag": 763898730,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker31_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/34.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3333,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 117.0,
+                "TopMargin": 120.0,
+                "Tag": 80,
+                "ActionTag": -1872761886,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker32_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/37.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 77.0,
+                "RightMargin": 77.0,
+                "TopMargin": 120.0,
+                "Tag": 81,
+                "ActionTag": -419895757,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker33_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/42.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 117.0,
+                "RightMargin": 37.0,
+                "TopMargin": 120.0,
+                "Tag": 82,
+                "ActionTag": 1735372585,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker34_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/44.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8333,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 157.0,
+                "RightMargin": -3.0,
+                "TopMargin": 120.0,
+                "Tag": 83,
+                "ActionTag": -227909307,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker35_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_duizi.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 20,
+                "Scale9Width": 51,
+                "Scale9Height": 23,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.6042,
+                  "Y": 0.2625
+                },
+                "LeftMargin": -145.0,
+                "RightMargin": 240.0,
+                "TopMargin": -11.0,
+                "BottomMargin": 188.0,
+                "Tag": 84,
+                "ActionTag": 2095878795,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "Name": "toudun_result_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_liangdui.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 20,
+                "Scale9Width": 51,
+                "Scale9Height": 23,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 118.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.4917
+                },
+                "PreSize": {
+                  "X": 0.6042,
+                  "Y": 0.2625
+                },
+                "LeftMargin": -145.0,
+                "RightMargin": 240.0,
+                "TopMargin": 59.0,
+                "BottomMargin": 118.0,
+                "Tag": 85,
+                "ActionTag": -639494252,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "Name": "zhongdun_result_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_shunzi.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 20,
+                "Scale9Width": 89,
+                "Scale9Height": 23,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 48.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.2
+                },
+                "PreSize": {
+                  "X": 0.6042,
+                  "Y": 0.2625
+                },
+                "LeftMargin": -145.0,
+                "RightMargin": 240.0,
+                "TopMargin": 129.0,
+                "BottomMargin": 48.0,
+                "Tag": 86,
+                "ActionTag": -573230196,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "Name": "weidun_result_img",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2115297258,
+            "Size": {
+              "X": 240.0,
+              "Y": 240.0
+            },
+            "VisibleForFrame": false,
+            "Name": "pokers_panel1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 127,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 25.6,
+              "Y": 345.6
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.02,
+              "Y": 0.48
+            },
+            "PreSize": {
+              "X": 0.1016,
+              "Y": 0.25
+            },
+            "LeftMargin": 25.6,
+            "RightMargin": 1124.4,
+            "TopMargin": 284.4,
+            "BottomMargin": 255.6,
+            "Tag": 1071,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/name_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 34,
+                "Scale9OriginY": 9,
+                "Scale9Width": 22,
+                "Scale9Height": 10,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 64.662,
+                  "Y": 60.714
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4974,
+                  "Y": 0.3373
+                },
+                "PreSize": {
+                  "X": 0.6923,
+                  "Y": 0.1556
+                },
+                "LeftMargin": 19.662,
+                "RightMargin": 20.338,
+                "TopMargin": 105.286,
+                "BottomMargin": 46.714,
+                "Tag": 1072,
+                "ActionTag": 970045921,
+                "Size": {
+                  "X": 90.0,
+                  "Y": 28.0
+                },
+                "Name": "name_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/common_portrait_mask.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 90.0
+                },
+                "Scale": {
+                  "ScaleX": 1.45,
+                  "ScaleY": 1.45
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.3846,
+                  "Y": 0.2778
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 40.0,
+                "TopMargin": 65.0,
+                "BottomMargin": 65.0,
+                "Tag": 1073,
+                "ActionTag": -1803042237,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 50.0
+                },
+                "VisibleForFrame": false,
+                "Name": "portrait_sprite",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/common_portrait_frame3.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 24,
+                "Scale9OriginY": 24,
+                "Scale9Width": 44,
+                "Scale9Height": 46,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 90.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.7077,
+                  "Y": 0.5222
+                },
+                "LeftMargin": 19.0,
+                "RightMargin": 19.0,
+                "TopMargin": 43.0,
+                "BottomMargin": 43.0,
+                "Tag": 1074,
+                "ActionTag": 2125686320,
+                "Size": {
+                  "X": 92.0,
+                  "Y": 94.0
+                },
+                "Name": "frame_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 16,
+                "LabelText": "我我我我我我我",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 57.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 190,
+                  "G": 232
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.32
+                },
+                "PreSize": {
+                  "X": 1.0769,
+                  "Y": 0.1111
+                },
+                "LeftMargin": -5.0,
+                "RightMargin": -5.0,
+                "TopMargin": 112.4,
+                "BottomMargin": 47.6,
+                "Tag": 1075,
+                "ActionTag": 2023487951,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 20.0
+                },
+                "Name": "name_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/score_bg2.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 45,
+                "Scale9OriginY": 13,
+                "Scale9Width": 2,
+                "Scale9Height": 5,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 67.002,
+                  "Y": 26.604
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5154,
+                  "Y": 0.1478
+                },
+                "PreSize": {
+                  "X": 0.7077,
+                  "Y": 0.1722
+                },
+                "LeftMargin": 21.002,
+                "RightMargin": 16.998,
+                "TopMargin": 137.896,
+                "BottomMargin": 11.104,
+                "Tag": 1076,
+                "ActionTag": 1835013431,
+                "Size": {
+                  "X": 92.0,
+                  "Y": 31.0
+                },
+                "Name": "score_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "0\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 67.6,
+                  "Y": 28.098
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 199,
+                  "G": 165,
+                  "B": 66
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.52,
+                  "Y": 0.1561
+                },
+                "PreSize": {
+                  "X": 0.9231,
+                  "Y": 0.1111
+                },
+                "LeftMargin": 7.6,
+                "RightMargin": 2.4,
+                "TopMargin": 141.902,
+                "BottomMargin": 18.098,
+                "Tag": 1077,
+                "ActionTag": 30407969,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 20.0
+                },
+                "Name": "score_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomUI/state_wancheng.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 10,
+                "Scale9Width": 72,
+                "Scale9Height": 19,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 90.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.7846,
+                  "Y": 0.2167
+                },
+                "LeftMargin": 14.0,
+                "RightMargin": 14.0,
+                "TopMargin": 70.5,
+                "BottomMargin": 70.5,
+                "Tag": 1007,
+                "ActionTag": -625842283,
+                "Size": {
+                  "X": 102.0,
+                  "Y": 39.0
+                },
+                "VisibleForFrame": false,
+                "Name": "game_state_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/common_roomowner_img.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 5,
+                "Scale9OriginY": 8,
+                "Scale9Width": 16,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 93.6,
+                  "Y": 113.4
+                },
+                "Scale": {
+                  "ScaleX": 1.1,
+                  "ScaleY": 1.1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.72,
+                  "Y": 0.63
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.2333
+                },
+                "LeftMargin": 80.6,
+                "RightMargin": 23.4,
+                "TopMargin": 45.6,
+                "BottomMargin": 92.4,
+                "Tag": 1079,
+                "ActionTag": 1412752009,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 42.0
+                },
+                "Name": "owner_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomUI/state_online.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": -7,
+                "Scale9OriginY": 11,
+                "Scale9Width": 40,
+                "Scale9Height": 4,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 32.5,
+                  "Y": 126.0
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.25,
+                  "Y": 0.7
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.1444
+                },
+                "LeftMargin": 19.5,
+                "RightMargin": 84.5,
+                "TopMargin": 41.0,
+                "BottomMargin": 113.0,
+                "Tag": 1080,
+                "ActionTag": 669382892,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 26.0
+                },
+                "VisibleForFrame": false,
+                "Name": "state_img",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -2054747334,
+            "Size": {
+              "X": 130.0,
+              "Y": 180.0
+            },
+            "VisibleForFrame": false,
+            "Name": "player_info_panel2",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 153.6,
+              "Y": 338.4
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.12,
+              "Y": 0.47
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.3333
+            },
+            "LeftMargin": 153.6,
+            "RightMargin": 886.4,
+            "TopMargin": 261.6,
+            "BottomMargin": 218.4,
+            "Tag": 87,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/10.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3333,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 117.0,
+                "TopMargin": -8.0,
+                "BottomMargin": 128.0,
+                "Tag": 88,
+                "ActionTag": 1402100432,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker11_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/11.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 77.0,
+                "RightMargin": 77.0,
+                "TopMargin": -8.0,
+                "BottomMargin": 128.0,
+                "Tag": 89,
+                "ActionTag": 921093053,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker12_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/12.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 117.0,
+                "RightMargin": 37.0,
+                "TopMargin": -8.0,
+                "BottomMargin": 128.0,
+                "Tag": 90,
+                "ActionTag": -2037708528,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker13_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/13.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 40.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1667,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": -3.0,
+                "RightMargin": 157.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 91,
+                "ActionTag": 803438927,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker21_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/14.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3333,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 117.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 92,
+                "ActionTag": 1854950888,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker22_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/20.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 77.0,
+                "RightMargin": 77.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 93,
+                "ActionTag": 1982764670,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker23_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/23.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 117.0,
+                "RightMargin": 37.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 94,
+                "ActionTag": -1703440425,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker24_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/26.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8333,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 157.0,
+                "RightMargin": -3.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 95,
+                "ActionTag": -250656248,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker25_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/29.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 40.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1667,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": -3.0,
+                "RightMargin": 157.0,
+                "TopMargin": 120.0,
+                "Tag": 96,
+                "ActionTag": 2129568900,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker31_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/34.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3333,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 117.0,
+                "TopMargin": 120.0,
+                "Tag": 97,
+                "ActionTag": 42627742,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker32_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/37.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 77.0,
+                "RightMargin": 77.0,
+                "TopMargin": 120.0,
+                "Tag": 98,
+                "ActionTag": 699999127,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker33_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/42.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 117.0,
+                "RightMargin": 37.0,
+                "TopMargin": 120.0,
+                "Tag": 99,
+                "ActionTag": -1374765301,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker34_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/44.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8333,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 157.0,
+                "RightMargin": -3.0,
+                "TopMargin": 120.0,
+                "Tag": 100,
+                "ActionTag": 1911102954,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker35_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_duizi.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 20,
+                "Scale9Width": 51,
+                "Scale9Height": 23,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 240.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.6042,
+                  "Y": 0.2625
+                },
+                "LeftMargin": 240.0,
+                "RightMargin": -145.0,
+                "TopMargin": -11.0,
+                "BottomMargin": 188.0,
+                "Tag": 101,
+                "ActionTag": -1403672703,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "Name": "toudun_result_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_liangdui.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 20,
+                "Scale9Width": 51,
+                "Scale9Height": 23,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 240.0,
+                  "Y": 118.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0,
+                  "Y": 0.4917
+                },
+                "PreSize": {
+                  "X": 0.6042,
+                  "Y": 0.2625
+                },
+                "LeftMargin": 240.0,
+                "RightMargin": -145.0,
+                "TopMargin": 59.0,
+                "BottomMargin": 118.0,
+                "Tag": 102,
+                "ActionTag": 353663809,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "Name": "zhongdun_result_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_shunzi.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 20,
+                "Scale9Width": 89,
+                "Scale9Height": 23,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 240.0,
+                  "Y": 48.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0,
+                  "Y": 0.2
+                },
+                "PreSize": {
+                  "X": 0.6042,
+                  "Y": 0.2625
+                },
+                "LeftMargin": 240.0,
+                "RightMargin": -145.0,
+                "TopMargin": 129.0,
+                "BottomMargin": 48.0,
+                "Tag": 103,
+                "ActionTag": 743351401,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "Name": "weidun_result_img",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 535940381,
+            "Size": {
+              "X": 240.0,
+              "Y": 240.0
+            },
+            "VisibleForFrame": false,
+            "Name": "pokers_panel2",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 127,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1254.4,
+              "Y": 345.6
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.98,
+              "Y": 0.48
+            },
+            "PreSize": {
+              "X": 0.1016,
+              "Y": 0.25
+            },
+            "LeftMargin": 1124.4,
+            "RightMargin": 25.6,
+            "TopMargin": 284.4,
+            "BottomMargin": 255.6,
+            "Tag": 1061,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/name_bg.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 34,
+                "Scale9OriginY": 9,
+                "Scale9Width": 22,
+                "Scale9Height": 10,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 64.662,
+                  "Y": 60.714
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.4974,
+                  "Y": 0.3373
+                },
+                "PreSize": {
+                  "X": 0.6923,
+                  "Y": 0.1556
+                },
+                "LeftMargin": 19.662,
+                "RightMargin": 20.338,
+                "TopMargin": 105.286,
+                "BottomMargin": 46.714,
+                "Tag": 1062,
+                "ActionTag": -2014061049,
+                "Size": {
+                  "X": 90.0,
+                  "Y": 28.0
+                },
+                "Name": "name_bg",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/common_portrait_mask.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 90.0
+                },
+                "Scale": {
+                  "ScaleX": 1.45,
+                  "ScaleY": 1.45
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.3846,
+                  "Y": 0.2778
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": 40.0,
+                "TopMargin": 65.0,
+                "BottomMargin": 65.0,
+                "Tag": 1063,
+                "ActionTag": -2035125432,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 50.0
+                },
+                "VisibleForFrame": false,
+                "Name": "portrait_sprite",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/common_portrait_frame3.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 24,
+                "Scale9OriginY": 24,
+                "Scale9Width": 44,
+                "Scale9Height": 46,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 90.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.7077,
+                  "Y": 0.5222
+                },
+                "LeftMargin": 19.0,
+                "RightMargin": 19.0,
+                "TopMargin": 43.0,
+                "BottomMargin": 43.0,
+                "Tag": 1064,
+                "ActionTag": -2025625041,
+                "Size": {
+                  "X": 92.0,
+                  "Y": 94.0
+                },
+                "Name": "frame_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 16,
+                "LabelText": "我我我我我我我",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 57.6
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 190,
+                  "G": 232
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.32
+                },
+                "PreSize": {
+                  "X": 1.0769,
+                  "Y": 0.1111
+                },
+                "LeftMargin": -5.0,
+                "RightMargin": -5.0,
+                "TopMargin": 112.4,
+                "BottomMargin": 47.6,
+                "Tag": 1065,
+                "ActionTag": -1072720884,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 20.0
+                },
+                "Name": "name_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/score_bg2.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 45,
+                "Scale9OriginY": 13,
+                "Scale9Width": 2,
+                "Scale9Height": 5,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 67.002,
+                  "Y": 26.604
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5154,
+                  "Y": 0.1478
+                },
+                "PreSize": {
+                  "X": 0.7077,
+                  "Y": 0.1722
+                },
+                "LeftMargin": 21.002,
+                "RightMargin": 16.998,
+                "TopMargin": 137.896,
+                "BottomMargin": 11.104,
+                "Tag": 1066,
+                "ActionTag": 1239800431,
+                "Size": {
+                  "X": 92.0,
+                  "Y": 31.0
+                },
+                "Name": "score_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 20,
+                "LabelText": "0\n",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 67.6,
+                  "Y": 28.098
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 199,
+                  "G": 165,
+                  "B": 66
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.52,
+                  "Y": 0.1561
+                },
+                "PreSize": {
+                  "X": 0.9231,
+                  "Y": 0.1111
+                },
+                "LeftMargin": 7.6,
+                "RightMargin": 2.4,
+                "TopMargin": 141.902,
+                "BottomMargin": 18.098,
+                "Tag": 1067,
+                "ActionTag": -143431268,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 20.0
+                },
+                "Name": "score_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomUI/state_wancheng.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 10,
+                "Scale9Width": 72,
+                "Scale9Height": 19,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 90.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.7846,
+                  "Y": 0.2167
+                },
+                "LeftMargin": 14.0,
+                "RightMargin": 14.0,
+                "TopMargin": 70.5,
+                "BottomMargin": 70.5,
+                "Tag": 1017,
+                "ActionTag": -425887230,
+                "Size": {
+                  "X": 102.0,
+                  "Y": 39.0
+                },
+                "VisibleForFrame": false,
+                "Name": "game_state_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Default/common_roomowner_img.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 5,
+                "Scale9OriginY": 8,
+                "Scale9Width": 16,
+                "Scale9Height": 26,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 93.6,
+                  "Y": 113.4
+                },
+                "Scale": {
+                  "ScaleX": 1.1,
+                  "ScaleY": 1.1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.72,
+                  "Y": 0.63
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.2333
+                },
+                "LeftMargin": 80.6,
+                "RightMargin": 23.4,
+                "TopMargin": 45.6,
+                "BottomMargin": 92.4,
+                "Tag": 1069,
+                "ActionTag": 112339293,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 42.0
+                },
+                "Name": "owner_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "GameRoomUI/state_online.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": -7,
+                "Scale9OriginY": 11,
+                "Scale9Width": 40,
+                "Scale9Height": 4,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 32.5,
+                  "Y": 126.0
+                },
+                "Scale": {
+                  "ScaleX": 0.8,
+                  "ScaleY": 0.8
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.25,
+                  "Y": 0.7
+                },
+                "PreSize": {
+                  "X": 0.2,
+                  "Y": 0.1444
+                },
+                "LeftMargin": 19.5,
+                "RightMargin": 84.5,
+                "TopMargin": 41.0,
+                "BottomMargin": 113.0,
+                "Tag": 1070,
+                "ActionTag": 634667385,
+                "Size": {
+                  "X": 26.0,
+                  "Y": 26.0
+                },
+                "VisibleForFrame": false,
+                "Name": "state_img",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -540563895,
+            "Size": {
+              "X": 130.0,
+              "Y": 180.0
+            },
+            "VisibleForFrame": false,
+            "Name": "player_info_panel3",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 1.0,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1126.4,
+              "Y": 338.4
+            },
+            "Scale": {
+              "ScaleX": 0.9,
+              "ScaleY": 0.9
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.88,
+              "Y": 0.47
+            },
+            "PreSize": {
+              "X": 0.1875,
+              "Y": 0.3333
+            },
+            "LeftMargin": 886.4,
+            "RightMargin": 153.6,
+            "TopMargin": 261.6,
+            "BottomMargin": 218.4,
+            "Tag": 104,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/10.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3333,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 117.0,
+                "TopMargin": -8.0,
+                "BottomMargin": 128.0,
+                "Tag": 105,
+                "ActionTag": 1778696271,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker11_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/11.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 77.0,
+                "RightMargin": 77.0,
+                "TopMargin": -8.0,
+                "BottomMargin": 128.0,
+                "Tag": 106,
+                "ActionTag": 289798999,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker12_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/12.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 117.0,
+                "RightMargin": 37.0,
+                "TopMargin": -8.0,
+                "BottomMargin": 128.0,
+                "Tag": 107,
+                "ActionTag": 1373883795,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker13_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/13.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 40.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1667,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": -3.0,
+                "RightMargin": 157.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 108,
+                "ActionTag": -2111543114,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker21_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/14.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3333,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 117.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 109,
+                "ActionTag": 636347157,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker22_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/20.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 77.0,
+                "RightMargin": 77.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 110,
+                "ActionTag": 669183387,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker23_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/23.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 117.0,
+                "RightMargin": 37.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 111,
+                "ActionTag": 575449981,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker24_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/26.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 124.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8333,
+                  "Y": 0.5167
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 157.0,
+                "RightMargin": -3.0,
+                "TopMargin": 56.0,
+                "BottomMargin": 64.0,
+                "Tag": 112,
+                "ActionTag": 427174614,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker25_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/29.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 40.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1667,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": -3.0,
+                "RightMargin": 157.0,
+                "TopMargin": 120.0,
+                "Tag": 113,
+                "ActionTag": -663149270,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker31_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/34.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 80.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3333,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 37.0,
+                "RightMargin": 117.0,
+                "TopMargin": 120.0,
+                "Tag": 114,
+                "ActionTag": 741183475,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker32_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/37.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 120.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 77.0,
+                "RightMargin": 77.0,
+                "TopMargin": 120.0,
+                "Tag": 115,
+                "ActionTag": 1278068529,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker33_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/42.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 160.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6667,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 117.0,
+                "RightMargin": 37.0,
+                "TopMargin": 120.0,
+                "Tag": 116,
+                "ActionTag": -336168651,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker34_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/44.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 39,
+                "Scale9Width": 30,
+                "Scale9Height": 42,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 60.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8333,
+                  "Y": 0.25
+                },
+                "PreSize": {
+                  "X": 0.3583,
+                  "Y": 0.5
+                },
+                "LeftMargin": 157.0,
+                "RightMargin": -3.0,
+                "TopMargin": 120.0,
+                "Tag": 117,
+                "ActionTag": -552015331,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 120.0
+                },
+                "Name": "poker35_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_duizi.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 20,
+                "Scale9Width": 51,
+                "Scale9Height": 23,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 188.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.7833
+                },
+                "PreSize": {
+                  "X": 0.6042,
+                  "Y": 0.2625
+                },
+                "LeftMargin": -145.0,
+                "RightMargin": 240.0,
+                "TopMargin": -11.0,
+                "BottomMargin": 188.0,
+                "Tag": 118,
+                "ActionTag": 744263130,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "Name": "toudun_result_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_liangdui.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 20,
+                "Scale9Width": 51,
+                "Scale9Height": 23,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 118.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.4917
+                },
+                "PreSize": {
+                  "X": 0.6042,
+                  "Y": 0.2625
+                },
+                "LeftMargin": -145.0,
+                "RightMargin": 240.0,
+                "TopMargin": 59.0,
+                "BottomMargin": 118.0,
+                "Tag": 119,
+                "ActionTag": 1371247301,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "Name": "zhongdun_result_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "Poker/paixing_shunzi.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 20,
+                "Scale9Width": 89,
+                "Scale9Height": 23,
+                "AnchorPoint": {
+                  "ScaleX": 1.0
+                },
+                "Position": {
+                  "X": 0.0,
+                  "Y": 48.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.2
+                },
+                "PreSize": {
+                  "X": 0.6042,
+                  "Y": 0.2625
+                },
+                "LeftMargin": -145.0,
+                "RightMargin": 240.0,
+                "TopMargin": 129.0,
+                "BottomMargin": 48.0,
+                "Tag": 120,
+                "ActionTag": -1071806660,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 63.0
+                },
+                "Name": "weidun_result_img",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 920924016,
+            "Size": {
+              "X": 240.0,
+              "Y": 240.0
+            },
+            "VisibleForFrame": false,
+            "Name": "pokers_panel3",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PokerNode.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 510.0,
+              "Y": 49.968
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.3984,
+              "Y": 0.0694
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 510.0,
+            "RightMargin": 770.0,
+            "TopMargin": 670.032,
+            "BottomMargin": 49.968,
+            "Tag": 537,
+            "ActionTag": -1877493239,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "poker_node0",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PokerNode.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 329.984,
+              "Y": 505.008
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.2578,
+              "Y": 0.7014
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 329.984,
+            "RightMargin": 950.016,
+            "TopMargin": 214.992,
+            "BottomMargin": 505.008,
+            "Tag": 567,
+            "ActionTag": -157304189,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "poker_node1",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PokerNode.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 160.0,
+              "Y": 265.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.125,
+              "Y": 0.3681
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 160.0,
+            "RightMargin": 1120.0,
+            "TopMargin": 455.0,
+            "BottomMargin": 265.0,
+            "Tag": 522,
+            "ActionTag": 752685631,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "poker_node2",
+            "ctype": "ProjectNodeObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "PokerNode.json",
+              "Plist": ""
+            },
+            "StretchWidthEnable": false,
+            "StretchHeightEnable": false,
+            "InnerActionSpeed": 1.0,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 680.064,
+              "Y": 265.032
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": true,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5313,
+              "Y": 0.3681
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 680.064,
+            "RightMargin": 599.936,
+            "TopMargin": 454.968,
+            "BottomMargin": 265.032,
+            "Tag": 552,
+            "ActionTag": 124969377,
+            "Size": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Name": "poker_node3",
+            "ctype": "ProjectNodeObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "BackGround/GameRoomBG.png",
+        "Default/common_portrait_frame3.png",
+        "Default/common_portrait_mask.png",
+        "Default/common_roomowner_img.png",
+        "Default/name_bg.png",
+        "Default/score_bg2.png",
+        "font/zhunyuan.ttf",
+        "GameRoomUI/state_online.png",
+        "GameRoomUI/state_wancheng.png",
+        "Poker.plist",
+        "Poker.png",
+        "Poker/paixing_duizi.png",
+        "Poker/paixing_liangdui.png",
+        "Poker/paixing_shunzi.png",
+        "PokerNode.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
